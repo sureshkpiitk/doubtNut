@@ -9,7 +9,7 @@ from django.shortcuts import render
 from django.views.generic.base import View
 
 from question.models import UserAskQuestion
-from question.tasks1 import pdf_task
+from question.tasks import pdf_task
 
 
 class UploadQuestion(View):
